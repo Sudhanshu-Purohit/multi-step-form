@@ -26,7 +26,7 @@ const options: JSX.Element[] = [
 const LastPage = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [selectedButton, setSelectedButton] = useState<number | null>(null);
-  const [disabled, setDisabled] = useState<boolean>(true);
+  const [, setDisabled] = useState<boolean>(true);
 
   useEffect(() => {
     setTimeout(() => {
